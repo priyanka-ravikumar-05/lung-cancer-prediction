@@ -1,0 +1,15 @@
+# Core
+streamlit>=1.30
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+scikit-learn>=1.2
+imbalanced-learn>=0.11
+jinja2>=3.0          # required for the styled leaderboard table
+openpyxl>=3.1        # for reading .xlsx uploads
+
+# Optional but recommended (the app degrades gracefully without them)
+plotly>=5.18         # interactive risk gauge
+shap>=0.44           # per-feature explanations
+xgboost>=2.0         # extra high-performance model
+fpdf2>=2.7           # downloadable PDF patient report
